@@ -1,0 +1,103 @@
+--- 
+- id: 1
+- id: 2
+- id: 3
+- id: 4
+- id: 5
+- id: 6
+- id: 7
+- id: 8
+- id: 9
+- id: 10
+  codinghours: 75
+  lifehours: 25
+- id: 11
+  codinghours: 45
+  lifehours: 25
+- id: 12
+  floorhours: 
+  lifehours: 
+- id: 13
+  floorhours: 
+  lifehours: 
+- id: 14
+  floorhours: 
+  lifehours: 
+- id: 15
+  floorhours: 
+  lifehours: 
+- id: 16
+  floorhours: 
+  lifehours: 
+- id: 17
+  floorhours: 
+  lifehours: 
+- id: 18
+  floorhours: 
+  lifehours: 
+- id: 19
+  floorhours: 
+  lifehours: 
+- id: 20
+  floorhours: 16
+  lifehours: 8
+- id: 21
+  floorhours: 
+  lifehours: 
+- id: 22
+  floorhours: 
+  lifehours: 
+- id: 23
+  floorhours: 15
+  lifehours: 5
+- id: 24
+  floorhours: 20
+  lifehours: 20
+- id: 25
+  floorhours: 77
+  lifehours: 8
+- id: 26
+  floorhours: 25
+  lifehours: 1
+- id: 27
+  floorhours: 2
+  lifehours: 4
+- id: 28
+  floorhours: 2
+  lifehours: 4
+- id: 29
+  floorhours: 2
+  lifehours: 4
+- id: 30
+  floorhours: 8
+  lifehours: 7
+- id: 31
+  floorhours: 20
+  lifehours: 4
+- id: 32
+  floorhours: 20
+  lifehours: 10
+- id: 33
+  floorhours: 6
+  lifehours: 5
+- id: 34
+  floorhours: 10
+  lifehours: 45
+- id: 35
+  floorhours: 12
+  lifehours: 12
+- id: 36
+  floorhours: 12
+  lifehours: 12
+- id: 37
+  floorhours: 12
+  lifehours: 12
+- id: 38
+  floorhours: 10
+  lifehours: 14
+- id: 39
+  floorhours: 6
+  lifehours: 18
+- id: 40
+  floorhours: 10
+  lifehours: 14

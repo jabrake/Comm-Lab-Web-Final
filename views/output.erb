@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <h4>Hi <%= @name %>, this is what your life looks like during finals.</h4>
+        
+        <div id="floatLeft">
+        <p>Time Spent @ ITP vs. Real World</p>
+        <img src="https://chart.googleapis.com/chart?chf=bg,s,DCDCDC&chs=375x150&amp;chd=t:<%= @floorhours %>,<%= @lifehours %>&amp;cht=p&amp;chl=ITP|Real World" style="padding: 35px 0 60px 0;" />
+        </div>
+        
+        <div id="floatRight">
+        <p>Where You Stuff Your Face</p>
+        <img src="https://chart.googleapis.com/chart?chf=bg,s,DCDCDC&chxr=0,0,10&chxs=0,676767,10.833,-0.333,lt,676767&chxt=y&chbh=a,0,11&chs=361x245&cht=bvg&chco=A2C180,FF9900,FF0000,0000FF,FFFF88,49188F&chds=0,10,0,10,0,10,0,10,0,10,0,10&chd=t:<%= @m2m %>|<%= @pizza_mercato %>|<%= @space_market %>|<%= @cafetasia %>|<%= @pret %>|<%= @chipotle %>&chdl=M2M|Pizza+Mercato|Space+Market|Cafetasia|Pret-a-Manger|Chipotle&chma=|3" />
+        </div>
+        
+        <div id="floatLeft">
+        <p>Are You An Alcoholic Yet?</p>
+        <img src="https://chart.googleapis.com/chart?chf=bg,s,DCDCDC&chxl=0:|Fri|Sat|Sun|Mon|Tues|Weds|TNO&chxr=0,0,7&chxt=x&chs=340x220&cht=lxy&chco=3072F3&chds=0,100,0,10&chd=t:-1|<%= @friday %>,<%= @saturday %>,<%= @sunday %>,<%= @monday %>,<%= @tuesday %>,<%= @wednesday %>,<%= @thursday %>&chdl=Alcohol&chdlp=b&chls=5,4,0&chma=5,5,5,25" width="340" height="220" alt="" />
+        </div>
+        
+        <div id="floatRight">
+        <p>Waking + Sleeping Hours</p>
+        <img src="https://chart.googleapis.com/chart?chf=bg,s,DCDCDC&chco=FF0000&chs=375x150&amp;chd=t:<%= @sleep %>,<%= @awake %>&amp;cht=p&amp;chl=Sleep|Awake" style="padding: 35px 0 50px 0;" />
+        </div>
+    </body>
+</html>

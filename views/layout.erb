@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        
+        <title>Life During Finals</title>
+        
+        <style>
+            body{
+                background-color: #DCDCDC;
+                font-family: "Helvetica"
+            }
+            
+            h1{
+                font-size: 30px;
+            }
+            
+            h4{
+                font-size: 20px;
+            }
+            
+            p{
+                font-size: 18px;
+            }
+            
+            a {
+                text-decoration: none;
+                link (color:#FF0000;)
+                visited (color:#0000FF;)
+                hover (color:#0000FF;)
+            }
+            
+            #mainContent{
+                width: 900px;
+                margin: 0 auto;
+            }
+            
+            #floatLeft{
+                width: 50%;
+                float: left;
+            }
+            
+            #floatRight{
+                width:50%;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mainContent">
+        <h1><%= @nav %></h1>
+        <%= yield %>
+        </div>
+    </body>
+</html>
